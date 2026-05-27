@@ -1,0 +1,177 @@
+.colorMood-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 70vh; 
+    align-items: center;
+}
+.messages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;  
+  width: 100%;
+  text-align: center;
+}
+
+.loading,
+.notFoundMood {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #6d5984;
+  text-align: center;
+}
+.colorMood-container h1 {
+    font-size: 2rem;
+    color: rgb(82, 77, 88);
+    margin-bottom: 40px;
+    margin-top: 2rem;
+    font-weight: 450;
+}
+
+.colorMood-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.colorMood-card h3 {
+    font-size: 1.5rem;
+    color: rgb(82, 77, 88);
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+.colorMood-card p {
+    font-size: 16px;
+    color: rgb(82, 77, 88);
+    margin-top: 15px;
+    font-family: Verdana;
+    font-weight: 100;
+}
+
+.colorMood-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  color: rgb(76, 69, 84);
+  font-family: Verdana;
+}
+
+.phrase {
+  font-size: 1rem;
+  color: #5f536e;
+  line-height: 1.6;
+  margin-top: 4rem;   
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+  letter-spacing: 1.2px;
+
+}
+
+.microAction {
+  margin-top: 0.8rem;
+  font-family: Verdana;
+  font-size: 16px;
+  margin-top: auto;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  line-height: 1.95;
+
+}
+.recomendation{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.button-container {
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  
+  .colorMood-container {
+    padding: 34px 18px;
+    }
+
+  .colorMood-card {
+    padding: 26px;
+    }
+    
+  .colorMood-card h3 {
+    font-weight: 450;
+  }
+
+  .colorMood-card p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .colorMood-card ul {
+    font-size: 12px;
+  }
+  .microAction {
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+
+  }
+  .recomendation{
+    font-weight: 100;
+    gap: 10px; 
+    font-size: 12px;
+  }
+    
+  }
+
+
+@media (max-width: 600px) {
+  .colorMood-container {
+  padding: 32px 16px;
+  }
+
+  .colorMood-card {
+  padding: 22px;
+  }
+  
+  .colorMood-card h3 {
+  font-weight: 450;
+}
+
+.colorMood-card p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.colorMood-card ul {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.microAction {
+  font-size: 12px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+
+}
+.recomendation{
+  font-weight: 100;
+  gap: 10px; 
+  font-size: 12px;
+}
+  
+}
+

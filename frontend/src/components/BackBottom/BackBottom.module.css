@@ -1,0 +1,15 @@
+.back-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 90%;
+  border: none;
+  background-color: #75647b;
+  color: rgb(254, 250, 250);
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(46, 196, 182, 0.3);
+  transition: all 0.2s ease;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 4rem;
+}

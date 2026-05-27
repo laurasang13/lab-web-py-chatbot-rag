@@ -1,0 +1,11 @@
+2026-05-27 21:45:21,840 | INFO | POST /chat | ip=127.0.0.1 | session=string | pregunta_len=15 | tiene_pii=?
+2026-05-27 21:45:21,842 | ERROR | Error inesperado: local variable 'respuesta' referenced before assignment
+2026-05-27 22:16:33,737 | INFO | POST /chat | ip=127.0.0.1 | session=nueva | pregunta_len=15 | tiene_pii=?
+2026-05-27 22:16:47,890 | INFO | HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 22:16:47,909 | INFO | Respuesta | session=40600f5c-de19-4626-80b6-5b80980b02e4 | fuentes=['ansiedad.txt', 'emociones_negativas.txt'] | advertencia_pii=False
+2026-05-27 22:17:52,198 | INFO | GET /chat/history | ip=127.0.0.1 | session=40600f5c-de19-4626-80b6-5b80980b02e4
+2026-05-27 22:19:08,420 | INFO | POST /chat | ip=127.0.0.1 | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | pregunta_len=178 | tiene_pii=?
+2026-05-27 22:19:08,421 | ERROR | Error inesperado: local variable 'respuesta' referenced before assignment
+2026-05-27 22:22:28,414 | INFO | POST /chat | ip=127.0.0.1 | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | pregunta_len=180 | tiene_pii=?
+2026-05-27 22:22:40,896 | INFO | HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 22:22:40,914 | INFO | Respuesta | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | fuentes=['mindfulness.txt', 'ansiedad.txt'] | advertencia_pii=False
