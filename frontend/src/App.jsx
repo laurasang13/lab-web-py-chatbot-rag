@@ -8,6 +8,7 @@ import UserProfilePage from "./pages/UserProfilePage/UserProfilePage"
 import CurrentMood from "./components/CurrentMood/CurrentMood";
 import Footer from "./components/Footer/Footer"
 import FakeLogin from "./components/FakeLogin/FakeLogin";
+import ChatbotPage from "./pages/ChatbotPage/ChatbotPage";
 import "../src/index.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/CurrentMood" element={<CurrentMood />} />
             <Route path="/MoodDetail" element={<MoodDetailPage />} />
             <Route path="fakelogin" element={<FakeLogin />} />
+            <Route path="/chatbot" element={<ChatbotPage />} />
           </Routes>
         </main>
         <Footer />

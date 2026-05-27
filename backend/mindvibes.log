@@ -9,3 +9,9 @@
 2026-05-27 22:22:28,414 | INFO | POST /chat | ip=127.0.0.1 | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | pregunta_len=180 | tiene_pii=?
 2026-05-27 22:22:40,896 | INFO | HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-27 22:22:40,914 | INFO | Respuesta | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | fuentes=['mindfulness.txt', 'ansiedad.txt'] | advertencia_pii=False
+2026-05-27 22:31:52,264 | INFO | POST /chat | ip=127.0.0.1 | session=nueva | pregunta_len=34 | tiene_pii=?
+2026-05-27 22:32:07,206 | INFO | HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 22:32:07,238 | INFO | Respuesta | session=78ca2b12-f309-4b86-858e-41f973a28f89 | fuentes=['mindfulness.txt', 'emociones_negativas.txt'] | advertencia_pii=False
+2026-05-27 22:32:57,085 | INFO | POST /chat | ip=127.0.0.1 | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | pregunta_len=175 | tiene_pii=?
+2026-05-27 22:33:09,747 | INFO | HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 22:33:09,760 | INFO | Respuesta | session=24d2536f-6000-4183-860e-0c7e6b7950b4 | fuentes=['mindfulness.txt', 'ansiedad.txt'] | advertencia_pii=False

@@ -26,6 +26,7 @@ function Navbar() {
           <div className={styles["links-menu"]}>
             <Link to="/">Home</Link>
             <Link to="/feelings">Moods</Link>
+            <Link to="/chatbot">Chat</Link>
             <Link to="">Blog</Link>
           </div>
           <div className={styles["button-login"]}>
@@ -37,6 +38,7 @@ function Navbar() {
         <div className={styles["mobile-menu"]}>
           <Link to="/">Home</Link>
           <Link to="/feelings">Moods</Link>
+          <Link to="/chatbot">Chat</Link>
           <Link to="">Blog</Link>
           <Link to="UserProfilePage">Login</Link>
         </div>
